@@ -1,0 +1,29 @@
+MEIN PLAN – PWA FÜR IPHONE
+
+Diese Version basiert auf deiner zuletzt hochgeladenen Datei „workout-app (1).html“.
+Die App wurde für die Installation als PWA vorbereitet.
+
+DATEIEN
+- index.html: deine App mit dem bisherigen Funktionsumfang
+- manifest.webmanifest: Name, Startseite, Darstellung und App-Symbole
+- service-worker.js: Offline-Caching der App-Oberfläche
+- icons/: App-Symbole für Browser und iPhone
+
+VERÖFFENTLICHUNG
+Lade den INHALT dieses Ordners in das Hauptverzeichnis deines Hostings hoch.
+index.html muss direkt im Hauptverzeichnis liegen.
+Das Hosting muss HTTPS unterstützen.
+
+IPHONE
+1. Öffne die HTTPS-Adresse in Safari.
+2. Tippe auf „Teilen“.
+3. Wähle „Zum Home-Bildschirm“ und anschließend „Hinzufügen“.
+
+OFFLINE-HINWEIS
+Die App-Oberfläche und die lokale Datenspeicherung funktionieren nach dem ersten erfolgreichen Laden grundsätzlich offline.
+Barcode-Scanner-Bibliothek und Produktsuche (Open Food Facts) benötigen weiterhin Internet.
+Die Daten werden lokal im Browser-/Web-App-Speicher gehalten und nicht automatisch mit iCloud synchronisiert.
+
+WICHTIG
+Vor der ersten Offline-Nutzung die veröffentlichte App einmal vollständig online öffnen,
+damit der Service Worker die App-Dateien zwischenspeichern kann.
